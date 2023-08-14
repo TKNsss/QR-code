@@ -10,7 +10,16 @@
 
 body {
   font-family: "outfitFont";
-  
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  max-width: 16.25rem;
+  box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
+  margin: 43px 15px;
+  height: 56vh;
 }
 
 .attribution { 
@@ -32,23 +41,17 @@ body {
   margin-bottom: 35px;
 }
 
-.container {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 15px;
-  justify-content: center;
-  align-items: center;
-  max-width: 260px;
-  box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
-  flex-wrap: wrap;
-}
-
-.container #pic1 {
+#pic1 {
   max-width: 233px;
   border-radius: 10px;
   margin: 13px 13px 0 13px;
 }
 
-@media only screen and (max-width: 375px) {
-  .back {max-width: 350px;}
+@media only screen and (min-width: 89.938rem) {
+  .container {margin: 150px auto;}
+}
+
+@media only screen and (max-width: 375) {
+  .container {margin: 43px 15px;}
 }
 
