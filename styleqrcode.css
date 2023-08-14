@@ -4,8 +4,13 @@
   font-weight: 400, 700;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "outfitFont";
+  
 }
 
 .attribution { 
@@ -27,17 +32,7 @@ body {
   margin-bottom: 35px;
 }
 
-.back {
-  background-color: hsl(212, 45%, 89%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 110px 50px;
-  height: 42em;
-  box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
-}
-
-.back .container {
+.container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   justify-content: center;
@@ -47,7 +42,7 @@ body {
   flex-wrap: wrap;
 }
 
-.back .container #pic1 {
+.container #pic1 {
   max-width: 233px;
   border-radius: 10px;
   margin: 13px 13px 0 13px;
@@ -57,12 +52,3 @@ body {
   .back {max-width: 350px;}
 }
 
-@media only screen and (min-width: 1439px) {
-  .back {
-    box-shadow: none;
-  }
-
-  body {
-    background-color:hsl(212, 45%, 89%);
-  }
-}
