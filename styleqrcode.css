@@ -51,7 +51,7 @@ body {
   .container {margin: 150px auto;}
 }
 
-@media only screen and (max-width: 375) {
+@media only screen and (max-width: 23.438rem) {
   .container {margin: 43px 15px;}
 }
 
