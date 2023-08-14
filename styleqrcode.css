@@ -13,7 +13,7 @@ body {
 }
 
 #title {
-  font-size: 18px;
+  font-size: 1.188rem;
   color: hsl(218, 44%, 22%);
   font-weight: bold;
   margin: 10px 18px;
@@ -21,7 +21,7 @@ body {
 
 #subtitle {
   color: grey;
-  font-size: 13px;  
+  font-size: 0.875rem;  
   margin-right: 18px;
   margin-left: 18px;
   margin-bottom: 35px;
