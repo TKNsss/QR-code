@@ -1,7 +1,6 @@
 @font-face {
   font-family: "outfitFont";
   src: url('Outfit/Outfit-VariableFont_wght.ttf');
-  font-weight: 400, 700;
 }
 
 * {
@@ -16,10 +15,10 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  max-width: 16.25rem;
+  max-width: 17.25rem;
   box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
-  margin: 43px 15px;
-  height: 56vh;
+  margin: 50px auto;
+  padding: 13px;
 }
 
 .attribution { 
@@ -29,29 +28,30 @@ body {
 #title {
   font-size: 1.188rem;
   color: hsl(218, 44%, 22%);
-  font-weight: bold;
-  margin: 16px 18px;
+  font-weight: 800;
+  padding: 0 10px 0 10px;
 }
 
 #subtitle {
-  color: grey;
+  color: hsl(220, 15%, 55%);
   font-size: 0.875rem;  
-  margin-right: 22px;
-  margin-left: 22px;
-  margin-bottom: 35px;
+  font-weight: 300;
+  padding: 0 10px 11px 10px;
+  margin: 0 2px 0 2px;
 }
 
 #pic1 {
-  max-width: 233px;
+  width: 100%;
   border-radius: 10px;
-  margin: 13px 13px 0 13px;
 }
 
 @media only screen and (min-width: 89.938rem) {
-  .container {margin: 150px auto;}
+  .container {margin: 143px auto;}
 }
 
 @media only screen and (max-width: 23.438rem) {
-  .container {margin: 43px 15px;}
+  .container {
+    margin: 50px auto;
+  }
 }
 
