@@ -30,14 +30,14 @@ body {
   font-size: 1.188rem;
   color: hsl(218, 44%, 22%);
   font-weight: bold;
-  margin: 10px 18px;
+  margin: 16px 18px;
 }
 
 #subtitle {
   color: grey;
   font-size: 0.875rem;  
-  margin-right: 18px;
-  margin-left: 18px;
+  margin-right: 22px;
+  margin-left: 22px;
   margin-bottom: 35px;
 }
 
