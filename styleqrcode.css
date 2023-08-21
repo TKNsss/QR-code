@@ -11,14 +11,18 @@
 body {
   font-family: "outfitFont";
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
 }
 
-.container {
+main {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  max-width: 18rem;
+  max-width: 19rem;
   box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
-  padding: 13px;
+  padding: 19px;
   margin: 50px auto;
 }
 
@@ -27,19 +31,18 @@ body {
 }
 
 #title {
-  font-size: 1.188rem;
+  font-size: 1.3rem;
   color: hsl(218, 44%, 22%);
   font-weight: 800;
-  padding: 0 10px 0 10px;
+  padding: 0 10px;
   margin-top: 18px;
 }
 
 #subtitle {
   color: hsl(220, 15%, 55%);
-  font-size: 0.875rem;  
+  font-size: 0.938rem;  
   font-weight: 300;
-  padding: 0 10px 11px 10px;
-  margin: 12px 2px;
+  padding: 0 10px;
 }
 
 #pic1 {
@@ -48,11 +51,11 @@ body {
 }
 
 @media only screen and (min-width: 89.938rem) {
-  .container {margin: 135px auto;}
+  main {margin: 135px auto;}
 }
 
 @media only screen and (max-width: 23.438rem) {
-  .container {margin: 50px auto;}
+  main {margin: 50px auto;}
 }
 
 
