@@ -3,6 +3,7 @@
   src: url('Outfit/Outfit-VariableFont_wght.ttf');
 }
 
+/* Remove default margin and padding */
 * {
   box-sizing: border-box;
 }
@@ -15,10 +16,10 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  max-width: 17.25rem;
+  max-width: 18rem;
   box-shadow: 10px 8px 24px rgba(149, 157, 165, 0.3);
-  margin: 50px auto;
   padding: 13px;
+  margin: 50px auto;
 }
 
 .attribution { 
@@ -30,6 +31,7 @@ body {
   color: hsl(218, 44%, 22%);
   font-weight: 800;
   padding: 0 10px 0 10px;
+  margin-top: 18px;
 }
 
 #subtitle {
@@ -37,7 +39,7 @@ body {
   font-size: 0.875rem;  
   font-weight: 300;
   padding: 0 10px 11px 10px;
-  margin: 0 2px 0 2px;
+  margin: 12px 2px;
 }
 
 #pic1 {
@@ -46,12 +48,12 @@ body {
 }
 
 @media only screen and (min-width: 89.938rem) {
-  .container {margin: 143px auto;}
+  .container {margin: 135px auto;}
 }
 
 @media only screen and (max-width: 23.438rem) {
-  .container {
-    margin: 50px auto;
-  }
+  .container {margin: 50px auto;}
 }
+
+
 
